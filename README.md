@@ -34,4 +34,4 @@ const App = () => {
 
 ## License
 
-MIT © [asbjornenge](https://github.com/asbjornenge)
+MIT © [tezid](https://github.com/tezid)
