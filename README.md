@@ -30,6 +30,8 @@ const App = () => {
 }
 ```
 
+[!screenshot](/main/screenshot.png?raw=true "Screenshot")
+
 ## License
 
 MIT © [asbjornenge](https://github.com/asbjornenge)
