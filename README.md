@@ -30,7 +30,7 @@ const App = () => {
 }
 ```
 
-[!screenshot](screenshot.png?raw=true "Screenshot")
+![screenshot](screenshot.png?raw=true "Screenshot")
 
 ## License
 
