@@ -13,6 +13,7 @@
   padding: 5px;
   margin-right: 5px;
   cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 .TezIDProofImage {
   width: 20px;
