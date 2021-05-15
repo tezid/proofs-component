@@ -13,19 +13,26 @@ npm install --save @tezid/proofs-component
 ## Usage
 
 ```jsx
-import { TezIDProofs } from '@tezid/proofs-component'
-import '@tezid/proofs-component/dist/index.css'
+import { TezIDProof } from 'tezid-proofs-component'
+import 'tezid-proofs-component/dist/index.css'
 
 const App = () => {
-  return (
-    <TezIDProofs 
-      proofs={[
-        { id: 'email', label: 'Email'}, 
-        { id: 'phone', label: 'Phone'}
-      ]} 
-      onClick={(p) => console.log(p)} 
-      selected={['email']}
+  const proofs = [
+    { id: 'email', label: 'Email' }, 
+    { id: 'phone', label: 'Phone' }
+  ]
+  const proofItems = proofs.map(p => 
+    <TezIDProof 
+      key={p.id} 
+      proof={p} 
+      selected={p.id === 'email'}
+      onClick={p => console.log(p)} 
     />
+  )
+  return (
+    <div style={{ display: 'flex' }}>
+      {proofItems}
+    </div>
   )
 }
 ```

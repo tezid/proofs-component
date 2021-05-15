@@ -4,6 +4,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+.TezIDProofItemWrapper {
+  padding-right: 5px;
+}
 .TezIDProofItem {
   display: flex;
   flex-direction: row;
@@ -12,7 +15,6 @@
   border-radius: 5px;
   height: 20px;
   padding: 5px;
-  margin-right: 5px;
   cursor: pointer;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
