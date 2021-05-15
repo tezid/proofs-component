@@ -2,6 +2,7 @@
 
 .TezIDProofs {
   display: flex;
+  flex-wrap: wrap;
 }
 .TezIDProofItem {
   display: flex;
