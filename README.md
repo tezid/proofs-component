@@ -1,4 +1,4 @@
-# tezid-proofs-component
+# @tezid/proofs-component
 
 > TezID Proofs React Component
 
@@ -7,21 +7,26 @@
 ## Install
 
 ```bash
-npm install --save tezid-proofs-component
+npm install --save @tezid/proofs-component
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import { TezIDProofs } from '@tezid/proofs-component'
+import '@tezid/proofs-component/dist/index.css'
 
-import MyComponent from 'tezid-proofs-component'
-import 'tezid-proofs-component/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <TezIDProofs 
+      proofs={[
+        { id: 'email', label: 'Email'}, 
+        { id: 'phone', label: 'Phone'}
+      ]} 
+      onClick={(p) => console.log(p)} 
+      selected={['email']}
+    />
+  )
 }
 ```
 
