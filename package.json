@@ -1,5 +1,5 @@
 {
-  "name": "tezid-proofs-component",
+  "name": "@tezid/proofs-component",
   "version": "1.0.0",
   "description": "TezID Proofs React Component",
   "author": "asbjornenge",

@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'tezid-proofs-component'
+import { TezIDProofs } from 'tezid-proofs-component'
 import 'tezid-proofs-component/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <TezIDProofs 
+      proofs={[
+        { id: 'email', label: 'Email'}, 
+        { id: 'phone', label: 'Phone'}
+      ]} 
+      onClick={(p) => console.log(p)} 
+      selected={['email']}
+    />
+  )
 }
 
 export default App
