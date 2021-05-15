@@ -30,7 +30,7 @@ const App = () => {
 }
 ```
 
-[!screenshot](https://raw.githubusercontent.com/tezid/proofs-component/main/screenshot.png "Screenshot")
+[!screenshot](screenshot.png "Screenshot")
 
 ## License
 
