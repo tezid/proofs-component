@@ -5,6 +5,8 @@
 }
 .TezIDProofItem {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   border: 1px solid #ff834f;
   border-radius: 5px;
   height: 20px;
