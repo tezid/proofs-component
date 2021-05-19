@@ -14,7 +14,7 @@ npm install --save @tezid/proofs-component
 
 ```jsx
 import { TezIDProof } from '@tezid/proofs-component'
-import 'tezid-proofs-component/dist/index.css'
+import '@tezid/proofs-component/dist/index.css'
 
 const App = () => {
   const proofs = [
